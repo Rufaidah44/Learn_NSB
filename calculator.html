@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> تطبيق الآلة الحاسبة </title>
+<<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="style.css" type="text/css" rel="stylesheet">
+</head>
+<body dir="rtl" >
+<div style="background-color:#f2e6ff">
+<div class="topnav" id="myTopnav">
+  <a href="Home.html" >الصفحة الرئيسية</a>
+  <li class="dropdown"><a href="javascript:void(0)" class="dropbtn">الدروس التعليمية</a>
+    <div class="dropdown-content">
+      <a href="SmartPhone.html">برمجة الأجهزة الذكية</a>
+	  <a href="ql1.html" style="font-size:9px">تمارين (م أ) </a>
+	  <a href="ql1b.html" style="font-size:9px">تمارين (م ب) </a>
+	  <a href="nsb.html">بيئة عمل برنامج NSB</a>
+	  <a href="ql2.html" style="font-size:9px">تمارين (م أ) </a>
+	  <a href="ql2b.html" style="font-size:9px">تمارين (م ب) </a>
+	  <a href="calculator.html" class="active">&nbsp;&nbsp;تطبيق الآلة الحاسبة</a>
+	  <a href="ql3.html" style="font-size:9px">تمارين (م أ) </a>
+	  <a href="ql3b.html" style="font-size:9px">تمارين (م ب) </a>
+	  <a href="duaa.html">تطبيق الدعاء المأثور</a>
+	  <a href="ql4.html" style="font-size:9px">تمارين (م أ) </a>
+	  <a href="ql4b.html" style="font-size:9px">تمارين (م ب) </a>
+    </div></li>
+  <a href="todo.html"> مهام و تكاليف</a>
+  <a href="userrmanual.html">دليل المستخدم</a>
+  <a href="contact.html">تواصل مع المعلم</a>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
+<div class="bodydiv">
+    <center>
+    <img src="images\picture3.png" alt="NSB بيئة عمل" width="100%" height="7%" ></center>
+    <br>
+    <div style="margin:0px 20px 0px 20px;">
+	<h1> تطبيق الآلة الحاسبة </h1><br>
+	<p class="st">أولا. تصميم النموذج ووضع الأدوات التي سنستخدمها</p>
+	<p class="nt"><ol><li>تشغيل برنامج NSB _AppStudio وإنشاء مشروع باسم (Calc).</li>
+	<li>اختيار لغة البرمجة (Basic) وتحديد مقاس الشاشة حسب جهاز الهاتف الذكي المستهدف.</li>
+	<li>تغيير خصائص النموذج كما بالشكل.</li>
+	<br><img src="images\nsb18.png" width="450" height="200" class="img-responsive" ><br>
+	<li>إنشاء أربع أدوات عنوان، وتغيير خصائصها كما بالشكل.</li>
+	<br><img src="images\nsb19.png" width="450" height="400" class="img-responsive" ><br>
+	<li>إنشاء مربعي نص (TextBox) وتغيير خصائصها كما بالشكل.</li>
+	<br><img src="images\nsb20.png" width="450" height="400" class="img-responsive" ><br>
+	<li>إنشاء خمس أزرار(Button) وتغيير خصائصها كما بالشكل.</li>
+	<br><img src="images\nsb21.png" width="450" height="400" class="img-responsive" ><br></ol><br>
+	بعد تصميم النموذج ووضع الأدوات عليه ستنتج واجهة التطبيق كما بالشكل
+	<br><br><img src="images\nsb22.png" width="200" height="150" class="img-responsive" ><br>
+	</p>
+    <br>		  
+	<hr width="70%" center >
+	<br>
+	<p class="st">ثانيا. كتابة الأوامر البرمجية</p>
+	<p class="nt">عند كتابة الأوامر لابد من التعرف على شاشة البرمجة وطريقة كتابة الأوامر التي أحتاجها.<p/>
+	<p class="nt"> <br><img src="images\nsb23.png" width="450" height="400" class="img-responsive" ><br>
+	بهذا التطبيق سيتم إجراء العمليات الحسابية على العددين التي سيتم إدخالها في مربعي النص، لتظهر في أداة العنوان، وذلك بعد تخزين الأعداد والناتج في متغيرات، وذلك من خلال الآتي:
+     <ol><li>تعريف المتغيرات (X.Y) لكي يتم تخزين الأعداد، والمتغير (Z) لناتج العملية الحسابية، وذلك بالنقر بالزر الأيمن للفأرة على النموذج واختيار الأمر (View code) أو عن طريق اختيار التبويب (code) أسفل شاشة التصميم، ستظهر شاشة البرمجة واكتب الأمر Dim x.y.z
+	</li>
+	<li>برمجة الزر الخاص بعملية الجمع Button 1
+     عند النقر على زر الجمع (Button 1) سيتم جمع العددين في (Text Box1) و( (Text Box2وإخراج النتائج في (LAbel4) .
+     ويتم النقر بزر الفأرة على زر الجمع Button 1)) 
+    واختيار الأمر go to event)) ثم الأمر onclick)) وكتابة الأوامر لتالية:
+    </li>
+     <br><img src="images\nsb25.png" width="300" height="200" class="img-responsive" ><br>
+	 <li>تكرار الأوامر البرمجية السابقة لباقي الأزرار الثلاث مع تغيير العلامة الحسابية.</li>
+	 <br><img src="images\nsb24.png" width="300" height="200" class="img-responsive" ><br>
+	 <li>تكتب الأوامر التالية لأزرار مسح ـ (لمسح البيانات المدخلة والنتائج)
+         فيما ستكون الأوامر البرمجية كما بالشكل.</li>
+     <br><img src="images\nsb26.png" width="300" height="200" class="img-responsive" ><br>
+	</ol>
+	<b>وسيكون شكل التطبيق بعد تنفيذ عملية الجمع كما بالشكل.</b>
+	<br><br><img src="images\nsb27.png" width="300" height="200" class="img-responsive" ><br>
+	</p>
+	
+	<br>		  
+	<hr width="70%" center >
+	<br>
+	
+	<p class="st">ثالثا. حفظ التطبيق (المشروع):</p>
+	<p class="nt"><ol><li>اختار الأمر (File)</li><li>اختار ( Save Project)</li></ol>	
+	</p>
+	
+	<br>		  
+	<hr width="70%" center >
+	<br>
+	
+	<p class="st">رابعا. نشر التطبيق على الخادم:</p>
+	<p class="nt"> يتطلب توافر الانترنت:
+	<ol><li>اختار الأمر (Run) من شريط الأوامر.</li>
+	    <li>اختار الأمر ( Deploy) أو بالضغط على المفتاح (F6) من لوحة المفاتيح.</li></ol>
+	</p>
+
+	
+	 
+	 
+
+
+<br><br>
+<center>
+<img src="images\quiz.png" alt="quiz" width="300" height="100" class="img-responsive">
+	<table><tr><td class="name" style="padding:20px;font-size:26px;"><a href="ql3.html" title="أسماء الطلاب : محمد - حسين - عبد الله "><h2> مجموعة أ</h2> </a></td>
+	           <td class="name1" style="padding:20px;font-size:26px;"><a href="ql3b.html" title="أسماء الطلاب : جاسم - علي - عبد العزيز " > <h2> مجموعة ب </h2></a></td>
+		</tr>
+		</table>
+	<br><br>
+</div>
+	 </div>
+	 
+</center>
+<script>
+function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+        x.className += " responsive";
+    } else {
+        x.className = "topnav";
+    }
+}
+</script>
+</div>
+<footer>
+ <center>
+<hr width=70%  >
+<script>
+var today = new Date(); 
+document.write(today);
+</script>
+<h4 style="font-family:'Segoe UI Black'; "> All copy Right saved &copy; 2018</h4>
+</center>
+<br><br>
+
+</footer>
+</body>
+</html>

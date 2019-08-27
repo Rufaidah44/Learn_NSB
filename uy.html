@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>jQuery UI Dialog - Animation</title>
+  <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="/resources/demos/style.css">
+  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+  <script>
+  $( function() {
+    $( "#dialog" ).dialog({
+      autoOpen: false,
+      show: {
+        effect: "blind",
+        duration: 1000
+      },
+      hide: {
+        effect: "explode",
+        duration: 1000
+      }
+    });
+ 
+    $( "#opener" ).on( "click", function() {
+      $( "#dialog" ).dialog( "open" );
+    });
+  } );
+  </script>
+</head>
+<body>
+ 
+<div id="dialog" title="Basic dialog">
+  <p>This is an animated dialog which is useful for displaying information. The dialog window can be moved, resized and closed with the 'x' icon.</p>
+</div>
+ 
+<button id="opener">Open Dialog</button>
+ <p class="st">الصفحة الرئيسية </p>
+	<p class="nt"> تحنوي الصفحة الرئيسية على صور ، كل صورة تنقل المستخدم إلى صفحة الدرس المتعلق بها <br> 
+	   <img src="images\us2.png" width="500px" height="300px" class="img-responsive"></p><br><br>
+	
+	<p class="st">درس برمجة الأجهزة الذكية </p>
+	<p class="nt"> تحتوي هذه الصفحة على جميع المعلومات المتعلقة بهذا الدرس ، بالإضافة إلى فيديو للشرح العملي <br>
+	   <img src="images\us4.png" width="500px" height="300px" class="img-responsive"><br><br></p>
+	   <p class="nt"> نهاية الصفحة يوجد اختبار متعلق بهذا الدرس مقسم حسب المجموعات ، عند وضع المؤشر على إحدى المجموعتين تظهر قائمة بأسماء طلاب هذه المجموعة، و عند الضغط عليها سوف ينتقل المستخدم إلى صفحة الاختبار<br>
+       <img src="images\us5.png" width="500px" height="300px" class="img-responsive"><br> ** تتكرر هذه الصورة في كافة الدروس  </p>
+	   
+	<p class="st">درس بيئة عمل برنامج NSB </p>
+	<p class="nt"> تحتوي هذه الصفحة على جميع المعلومات المتعلقة بهذا الدرس ، بالإضافة إلى فيديو للشرح العملي <br>
+	   <img src="images\us6.png" width="500px" height="300px" class="img-responsive"><br><br></p>  
+	   
+	 <p class="st">درس تطبيق الآلة الحاسبة </p>
+	<p class="nt"> تحتوي هذه الصفحة على جميع المعلومات المتعلقة بهذا الدرس ، بالإضافة إلى فيديو للشرح العملي <br>
+	   <img src="images\us7.png" width="500px" height="300px" class="img-responsive"><br><br></p>  
+	 
+	  <p class="st">درس تطبيق الدعاء المأثور </p>
+	<p class="nt"> تحتوي هذه الصفحة على جميع المعلومات المتعلقة بهذا الدرس ، بالإضافة إلى فيديو للشرح العملي <br>
+	   <img src="images\us8.png" width="500px" height="300px" class="img-responsive"><br><br></p>  
+	
+      
+     <p class="st">صفحة مهام و تكاليف  </p>
+	<p class="nt"> تحتوي هذه الصفحة على مجموعة مهام و تكاليف يجب على الطالب القيام بها و تسليمها للمعلم  <br>
+	   <img src="images\us10.png" width="500px" height="300px" class="img-responsive"><br><br></p>  
+
+
+     <p class="st">صفحة دليل المستخدم </p>
+	<p class="nt"> تحتوي هذه الصفحة على شرح لكافة صفحات الموقع <br>
+	   <img src="images\us9.png" width="500px" height="300px" class="img-responsive"><br><br></p>  
+
+	   
+	<p class="st">صفحة تواصل معنا  </p>
+	<p class="nt"> من خلال هذه الصفحة يستطيع المستخدم ارسال رسالى إلى المعلم تحتوي على استفسار أو سؤال أي أي شيء آخر ، شرط تعبئة الاسم و البريد و عنوان الرسالة و نص الرسالة  <br>
+	   <img src="images\us3.png" width="500px" height="300px" class="img-responsive"><br><br></p>  
+	
+ 
+</body>
+</html>

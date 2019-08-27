@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+<title> برمجة الأجهزة الذكية </title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="style.css" type="text/css" rel="stylesheet">
+
+</head>
+<body dir="rtl">
+<div style="background-color:#f2e6ff">
+<div class="topnav" id="myTopnav">
+  <a href="Home.html">الصفحة الرئيسية</a>
+  <li class="dropdown"><a href="javascript:void(0)" class="dropbtn">الدروس التعليمية</a>
+    <div class="dropdown-content">
+      <a href="SmartPhone.html" class="active">برمجة الأجهزة الذكية</a>
+	  <a href="ql1.html" style="font-size:9px">تمارين (م أ) </a>
+	  <a href="ql1b.html" style="font-size:9px">تمارين (م ب) </a>
+	  <a href="nsb.html">بيئة عمل برنامج NSB</a>
+	  <a href="ql2.html" style="font-size:9px">تمارين (م أ) </a>
+	  <a href="ql2b.html" style="font-size:9px">تمارين (م ب) </a>
+	  <a href="calculator.html">&nbsp;&nbsp;تطبيق الآلة الحاسبة</a>
+	  <a href="ql3.html" style="font-size:9px">تمارين (م أ) </a>
+	  <a href="ql3b.html" style="font-size:9px">تمارين (م ب) </a>
+	  <a href="duaa.html">تطبيق الدعاء المأثور</a>
+	  <a href="ql4.html" style="font-size:9px">تمارين (م أ) </a>
+	  <a href="ql4b.html" style="font-size:9px">تمارين (م ب) </a>
+    </div></li>
+  <a href="todo.html"> مهام و تكاليف</a>
+  <a href="userrmanual.html">دليل المستخدم</a>
+  <a href="contact.html">تواصل مع المعلم</a>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
+
+<div class="bodydiv">
+    <center>
+    <img src="images\picture1.png" alt="برمجة الأجهزة الذكية" width="100%" height="7%" ></center>
+    <br>
+    <div style="margin:0px 20px 0px 20px;">
+	<h1> NSB مراحل كتابة البرنامج باستخدام </h1>
+	<p class="st" ><b> أولا. مرحلة تصميم الواجهات:</b></p>
+    <p class="nt">1. تحديد مقاسات النماذج بحيث تتوافق مع مقاس شاشة الجهاز.
+    <br>2. وضع الأدوات على النموذج عن طريق السحب والإفلات.
+    </p>
+    <p class="st">ثانيا. مرحلة ضبط خصائص الأدوات:</p>
+    <p class="nt"> لكل أداة خصائص مثل الشكل واللون ونوع الخط والعنوان فيتم تغييرها بما يناسب التطبيق.</p>
+	<p class="st">ثالثا. مرحله كتابة أوامر البرمجة:</p>
+    <p class="nt">كتابة الأوامر التي نريد تنفيذها عند وقوع حدث معين</p>
+    <p class="st">رابعا. مرحلة تجربة التطبيق واكتشاف الأخطاء:</p>
+    <p class="nt"><li>يمكن ذلك من خلال متصفح الانترنت (ويفضل كروم أو سفاري)</li>
+	              <li>أو من خلال الأجهزة الذكية</li></p>
+		<br>		  
+	<hr width="70%" center >
+	<br>
+	
+	<h1> طريقة تعامل NSB مع البيانات</h1>
+	<p class="nt">الهدف من أي تطبيق هو معالجة البيانات باختلاف أنواعها وتأتي هذه البيانات من المستخدم وتكون إما:
+    <li>قيم ثابتة </li>
+    <li>قيم متغيرة</li></p>
+	<p class="nt" style="color:#b30059">الثابت:</p>
+    <p class="nt">هو إعطاء اسم لقيمة معينة لا يمكن تغييرها أثناء تنفيذ البرنامج.
+      ولتعريف الثابت نستخدم الأمر (Const).</p>
+    <p class="nt" style="color:#b30059">المتغير:</p>
+    <p class="nt">هو مكان في الذاكرة الرئيسية تخزن فيه البيانات ويعطى اسم معين.
+      ولتعريف المتغير نستخدم الأمر (Dim).</p>
+    <p class="nt">في NSB نتجاهل الإعلان عن نوع البيانات حيث لا يوجد غير نوع واحد من البيانات هو البيانات المنوعة variantحيث يأخذ نوع البيانات الخاص به من القيمة التي يتم تعيينها له.
+    </p>
+	<img class="img-responsive" src="images\nsb1.png" alt="pic1" width="400" height="200" >
+	<br>		  
+	<hr width="70%" center >
+	<br>
+	<h1>أدوات البرمجة في برنامج NSB </h1>
+	<p class="st">أولا. أدوات إدخال البيانات</p>
+	<p class="nt" style="color:#b30059" > 1.مربع النص (TextBox) :</p>
+    <p class="nt">تتيح للمستخدم كتابة النص وتخزينه في الخاصية (value) وتستخدم للإدخال والإخراج.</p>
+    <p class="nt" style="color:#b30059">2. مربع الاختيار (CheckBox) :</p>
+    <p class="nt"> تتيح للمستخدم الاختيار من مجموعة خيارات ونستخدم مع هذه الأداة دالتين هما :
+    <li>دالة (setValue(n))</li>
+    <li>دالة (getValue(n))</li>
+     حيث (n) تمثل ترتيب الخيارات 
+    </p>
+	<p class="nt" style="color:#b30059">3. أداة القائمة (List) :</p>
+    <p class="nt"> تعرض قائمة مكونة من عناصر يختار المستخدم أحدها
+     يحفظ خيار المستخدم بواسطة الدالة (getItem(i)) حيث (i) تعني رقم العنصر </p>
+
+	 <p class="nt" style="color:#b30059">4. أداة القائمة المنسدلة أو الاختيار (Select) :</p>
+    <p>تعرض قائمة مكونة من عناصر يختار المستخدم أحدها، ويخزن الخيار في الخصائص التالية :
+    <li>لاختيار العنصر نستخدم الخاصية (SelectedItem)</li>
+    <li>لاختيار رقم ترتيب العنصر ويبدأ ب(1) نستخدم الخاصية (SelectedValue)</li>
+    <li>لاختيار فهرس العنصر ويبدأ ب(0) نستخدم الخاصية (SelectedIndex)</li></p>
+	<p class="st">ثانيا. أدوات إخراج البيانات</p>
+	<p class="nt" style="color:#b30059" >1. مربع النص (TextBox):</p>
+    <p class="nt"> يتم إخراج المعلومات باستخدام الخاصية (value)</p>
+    <p class="nt" style="color:#b30059" >2. أداة التسمية (Label):</p>
+    <p class="nt">يتم إخراج المعلومات باستخدام الخاصية (TextContent)</p>
+	<br><br>
+	<center>
+	<iframe   width="700" height="400" src="https://www.youtube.com/embed/-3eRtPTa0wc" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+	<br><br>
+	
+	<img src="images\quiz.png" alt="quiz" width="300" height="100" class="img-responsive">
+	<table><tr><td class="name" style="padding:20px;font-size:26px;"><a href="ql1.html" title="أسماء الطلاب : محمد - حسين - عبد الله "> <h2> مجموعة أ</h2> </a></td>
+	           <td class="name1" style="padding:20px;font-size:26px;"><a href="ql1b.html" title="أسماء الطلاب : جاسم - علي - عبد العزيز " ><h2>  مجموعة ب </h2></a></td>
+		</tr>
+		
+		</table>
+	<br><br>
+</div>
+	 </div>
+	 
+
+<script>
+function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+        x.className += " responsive";
+    } else {
+        x.className = "topnav";
+    }
+}
+</script>
+</div>
+<footer>
+ <center>
+<hr width=70%  >
+<script>
+var today = new Date(); 
+document.write(today);
+</script>
+<h4 style="font-family:'Segoe UI Black'; "> All copy Right saved &copy; 2018</h4>
+</center>
+<br><br>
+
+</footer>
+</body>
+</html>

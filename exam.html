@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+<title> اختبار درس بيئة عمل برنامج NSB </title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+ <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="style.css" type="text/css" rel="stylesheet">
+<script src="http://www.fastlearning.in/controller/js/jquery-1.9.1.min.js"></script>
+     <script type="text/javascript">
+	$(document).ready(function() {
+    $('label').click(function() {
+        $('label').removeClass('worngans');
+        $(this).addClass('worngans');
+    });
+});
+	</script>
+</head>
+
+<body dir="rtl" >
+<div style="background-color:#f2e6ff">
+<div class="topnav" id="myTopnav">
+  <a href="Home.html" class="active">الصفحة الرائيسية</a>
+  <li class="dropdown"><a href="javascript:void(0)" class="dropbtn">كافة الدروس</a>
+    <div class="dropdown-content">
+      <a href="SmartPhone.html">برمجة الأجهزة الذكية</a>
+	  <a href="nsb.html">بيئة عمل برنامج NSB</a>
+	  <a href="calculator.html">تطبيق الآلة الحاسبة</a>
+	  <a href="duaa.html">تطبيق الدعاء المأثور</a>
+    </div></li>
+  <a href="todo.html"> مهام و تكاليف</a>
+  <a href="userrmanual.html">دليل المستخدم</a>
+  <a href="contact.html">تواصل معنا</a>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
+
+<div class="bodydiv" style="padding:15px">
+<h1 style="color:#400080"> اختبار في كافة الدروس </h1>
+<hr width="90%">
+<div class="scp-quizzes-main">
+   <!-- <div class="scp-quizzes-data" >
+      <h3> 1 . يتطلب اختيار لغة البرمجة (Basic) للبدء بإنشاء التطبيق.</h3>
+      <input type="radio"  name="question1" >
+         <label id="ra" onclick=" document.getElementById('ra').className = 'right'; ad();" > صح </label><br/>
+		 
+      <input type="radio"  name="question1" onclick='document.getElementById("ra").disabled="true";'>
+         <label id="r1" onclick='document.getElementById("wronga1").style.display = "block;' > خطأ </label><br/>
+	  <h4 id="wronga1" style="display:none" > الجواب خطأ </h4>
+   </div> <-->
+   
+   
+  <div class="scp-quizzes-data" >
+      <h3>1 . لاختيار العنصر نستخدم الخاصية (SelectedValue).</h3>
+      <input type="radio"  name="question1" >
+         <label id="ra1" onclick="document.getElementById('ra1').className = 'right'; ad(); " > صح </label><br/>
+		 
+      <input type="radio"  name="question1" >
+         <label onclick='document.getElementById("wronga1").style.display = "block"'> خطأ </label><br/>
+	  <h4 id="wronga1" style="display:none" > الجواب خطأ </h4>
+   </div>
+ 
+    <div class="scp-quizzes-data" >
+      <h3>2  . مربع النص (TextBox) يتيح للمستخدم الاختيار من مجموعة خيارات.</h3>
+        <input type="radio"  name="question1"  >
+          <label id="ra2" onclick="document.getElementById('ra2').className = 'right'; ad(); " > صح </label><br/>
+        <input type="radio"  name="question1" >
+          <label onclick='document.getElementById("wronga2").style.display = "block"'> خطأ </label><br/>
+		<h4 id="wronga2" style="display:none" > الجواب خطأ </h4>
+ </div>
+ 
+ <div class="scp-quizzes-data" >
+      <h3>3 . بالإمكان إغلاق برنامج ( NSB _AppStudio) عبر اختيار الأمر (Quit) من قائمة (File).</h3>
+      <input type="radio"  name="question1" >
+         <label id="ra3" onclick="document.getElementById('ra3').className = 'right'; ad(); " > صح </label><br/>
+		 
+      <input type="radio"  name="question1" >
+         <label onclick='document.getElementById("wronga3").style.display = "block"'> خطأ </label><br/>
+	  <h4 id="wronga3" style="display:none" > الجواب خطأ<br>يغلق البرنامج بإحدى الطريقتين:  اختيار الأمر (Quit) من قائمة (File).النقر على رمز X في أعلى يمين الشاشة
+ </h4>
+   </div>
+ 
+    <div class="scp-quizzes-data" >
+      <h3>4 . قائمة (iWebkit) توفر أدوات للمواقع وتستخدم أنظمة التشغيل Android ، windows Phone</h3>
+        <input type="radio"  name="question1"  >
+          <label onclick='document.getElementById("wronga4").style.display = "block"'> صح </label><br/>
+		  
+        <input type="radio"  name="question1" >
+          <label  id="ra4" onclick="document.getElementById('ra4').className = 'right'; ad(); "> خطأ </label><br/>
+		<h4 id="wronga4" style="display:none" > الجواب خطأ<br>حيث أن قائمة (iWebkit) توفر أدوات تستخدم ببناء تطبيقات الانترنت  للأجهزة الذكية التي تعمل فقط بنظام التشغيل ios 
+ </h4>
+ </div>
+ 
+    <div class="scp-quizzes-data" >
+      <h3>5 . يمكن إظهار الأدوات المستخدمة لتصميم واجهة التفاعل نختار الأمر (Tool Box) من قائمة (View).</h3>
+        <input type="radio"  name="question1"  >
+          <label id="ra5" onclick="document.getElementById('ra5').className = 'right'; ad();" > صح </label><br/>
+		  
+        <input type="radio"  name="question1" >
+          <label onclick='document.getElementById("wronga5").style.display = "block"'> خطأ </label><br/>
+		<h4 id="wronga5" style="display:none" > الجواب خطأ <br> حيث أن مربع الأدوات (Tool Box): والمستخدمة بتصميم واجهة التفاعل، ولإظهارها نختار الأمر (Tool Box) من قائمة (View). </h4>
+ </div>
+ 
+   <div class="scp-quizzes-data" >
+      <h3>6 .  إذا أردنا التعامل مع التاريخ في التطبيق نستخدم  أداة Multimeedia)). </h3>
+        <input type="radio"  name="question1"  >
+          <label onclick='document.getElementById("wronga6").style.display = "block"' id="ra6" > صح </label><br/>
+		  
+        <input type="radio"  name="question1" >
+          <label  onclick="document.getElementById('ra6').className = 'right'; ad();" id="ra6" > خطأ </label><br/>
+		<h4 id="wronga6" style="display:none" > الجواب خطأ <br> حيث أنه إذا أردنا التعامل مع التاريخ في التطبيق نستخدم  أداة Date and time  </h4>
+ </div>
+ 
+ <div class="scp-quizzes-data" >
+      <h3> 7 . لنشر التطبيق نختار الأمر (Run) والضغط على المفتاح (F5).</h3>
+      <input type="radio"  name="question1" >
+         <label onclick='document.getElementById("wronga7").style.display = "block"' > صح </label><br/>
+		 
+      <input type="radio"  name="question1" >
+         <label id="ra7" onclick="document.getElementById('ra7').className = 'right'; ad();"> خطأ </label><br/>
+	  <h4 id="wronga7" style="display:none" > الجواب خطأ <br> حيث يتطلب لنشر التطبيق  اختيار الأمر (Run).اختار الأمر ( Deploy) أو بالضغط على المفتاح (F6) </h4>
+   </div>
+ 
+    <div class="scp-quizzes-data" >
+      <h3>8 . يستخدم الزر (Button 1)  عملية الجمع. </h3>
+        <input type="radio"  name="question1"  >
+          <label id="ra8" onclick="document.getElementById('ra8').className = 'right'; ad(); " > صح </label><br/>
+		  
+        <input type="radio"  name="question1" >
+          <label  onclick='document.getElementById("wronga8").style.display = "block"'> خطأ </label><br/>
+		<h4 id="wronga8" style="display:none" > الجواب خطأ <br> حيث يستخدم الزر (Button 1)  عملية الجمع </h4>
+ </div>
+ 
+    <div class="scp-quizzes-data" >
+      <h3>9 . الأمر ( Deploy) يتيح حفظ التطبيق.</h3>
+        <input type="radio"  name="question1"  >
+          <label onclick='document.getElementById("wronga9").style.display = "block"' > صح </label><br/>
+		  
+        <input type="radio"  name="question1" >
+          <label id="ra9" onclick="document.getElementById('ra9').className = 'right'; ad();"> خطأ </label><br/>
+		<h4 id="wronga9" style="display:none" > الجواب خطأ <br> حيث أن  الأمر  (Deploy) يتيح نشر التطبيق على الخادم.</h4>
+ </div>
+ 
+   <div class="scp-quizzes-data" >
+      <h3>10 . عند تصميم نموذج التطبيق يتطلب تحديد مقاس الشاشة حسب جهاز الهاتف الذكي المستهدف. </h3>
+        <input type="radio"  name="question1"  >
+          <label  onclick="document.getElementById('ra10').className = 'right'; ad();" id="ra10" > صح </label><br/>
+		  
+        <input type="radio"  name="question1" >
+          <label  onclick='document.getElementById("wronga10").style.display = "block"' > خطأ </label><br/>
+		<h4 id="wronga10" style="display:none" > الجواب خطأ <br> عند تصميم نموذج التطبيق يتطلب تحديد مقاس الشاشة حسب جهاز الهاتف الذكي المستهدف.  وذلك لان مقاسات الشاشات تختلف </h4>
+ </div>
+ 
+ <div class="scp-quizzes-main">
+   <div class="scp-quizzes-data" >
+      <h3> 11 . يتطلب اختيار لغة البرمجة (Basic) للبدء بإنشاء التطبيق.</h3>
+      <input type="radio"  name="question1" >
+         <label id="ra11" onclick="document.getElementById('ra11').className = 'right'; ad(); " > صح </label><br/>
+		 
+      <input type="radio"  name="question1" >
+         <label onclick='document.getElementById("wronga11").style.display = "block"'> خطأ </label><br/>
+	  <h4 id="wronga11" style="display:none" > الجواب خطأ <br> حيث يتطلب اختيار لغة البرمجة (Basic) للبدء بإنشاء التطبيق </h4>
+   </div>
+ 
+    <div class="scp-quizzes-data" >
+      <h3>12 . يكون اختبار هذا التطبيق وتجربته بالضغط على F8) )</h3>
+        <input type="radio"  name="question1"  >
+          <label onclick='document.getElementById("wronga12").style.display = "block"' > صح </label><br/>
+		  
+        <input type="radio"  name="question1" >
+          <label  id="ra12" onclick="document.getElementById('ra12').className = 'right'; ad();"> خطأ </label><br/>
+		<h4 id="wronga12" style="display:none" > الجواب خطأ <br> يكون اختبار هذا التطبيق وتجربته بالضغط على F5) ) أو الأمر Run))ثم (start in desktop browsar) أو من شريط الأدوات اختيار علامة <img src="nsb36.png"></h4>
+ </div>
+ 
+    <div class="scp-quizzes-data" >
+      <h3>13 . بتم اختيار Save Project) )  لحفظ التطبيق </h3>
+        <input type="radio"  name="question1"  >
+          <label id="ra13" onclick="document.getElementById('ra13').className = 'right'; ad();" > صح </label><br/>
+		  
+        <input type="radio"  name="question1" >
+          <label onclick='document.getElementById("wronga13").style.display = "block"'> خطأ </label><br/>
+		<h4 id="wronga13" style="display:none" > الجواب خطأ <br> لحفظ التطبيق اختار الأمر (File)ثم اختار ( Save Project)  </h4>
+ </div>
+ 
+   <div class="scp-quizzes-data" >
+      <h3>14 . زر (Button) وظيفته النقل للشاشة التالية. </h3>
+        <input type="radio"  name="question1"  >
+          <label onclick='document.getElementById("wronga14").style.display = "block"'  > صح </label><br/>
+		  
+        <input type="radio"  name="question1" >
+          <label  onclick="document.getElementById('ra14').className = 'right'; ad();" id="ra14"> خطأ </label><br/>
+		<h4 id="wronga14" style="display:none" > الجواب خطأ <br> إنشاء زر (Button) وتكون وظيفته العودة للشاشة الأولى </h4>
+ </div>
+   </div>
+   <center>
+   <h2 onclick="window.alert('لقد حصلت على : '+ x)"> اظهار النتيجة</h2>
+   </center>
+</div>
+<script>
+function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+        x.className += " responsive";
+    } else {
+        x.className = "topnav";
+    }
+}
+	var x = 0;
+function ad(){
+	  x++;
+    }
+	
+</script>
+</div>
+<footer>
+ <center>
+<hr width="70%" >
+<script>
+var today = new Date(); 
+document.write(today);
+</script>
+<h4 style="font-family:'Segoe UI Black'; "> All copy Right saved &copy; 2018</h4>
+</center>
+<br><br>
+</footer>
+</body>
+</html>

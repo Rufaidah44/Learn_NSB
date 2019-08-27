@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+<title>  تمرينات تطبيق الآلة الحاسبة (مجموعة ب)</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="style.css" type="text/css" rel="stylesheet">
+<script src="http://www.fastlearning.in/controller/js/jquery-1.9.1.min.js"></script>
+<script src="answers.js"></script>
+     <script type="text/javascript">
+	$(document).ready(function() {
+    $('label').click(function() {
+        $('label').removeClass('worngans');
+        $(this).addClass('worngans');
+    });
+});
+	</script>
+  <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="/resources/demos/style.css">
+  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+  <script>
+  
+  </script>
+</head>
+
+<body dir="rtl" >
+<div style="background-color:#f2e6ff">
+<div class="topnav" id="myTopnav">
+  <a href="Home.html" class="active">الصفحة الرائيسية</a>
+  <li class="dropdown"><a href="javascript:void(0)" class="dropbtn">الدروس التعليمية</a>
+    <div class="dropdown-content">
+      <a href="SmartPhone.html">برمجة الأجهزة الذكية</a>
+	  <a href="ql1.html" style="font-size:9px">تمارين (م أ) </a>
+	  <a href="ql1b.html" style="font-size:9px">تمارين (م ب) </a>
+	  <a href="nsb.html">بيئة عمل برنامج NSB</a>
+	  <a href="ql2.html" style="font-size:9px">تمارين (م أ) </a>
+	  <a href="ql2b.html" style="font-size:9px">تمارين (م ب) </a>
+	  <a href="calculator.html">&nbsp;&nbsp;تطبيق الآلة الحاسبة</a>
+	  <a href="ql3.html" style="font-size:9px">تمارين (م أ) </a>
+	  <a href="ql3b.html" style="font-size:9px">تمارين (م ب) </a>
+	  <a href="duaa.html">تطبيق الدعاء المأثور</a>
+	  <a href="ql4.html" style="font-size:9px">تمارين (م أ) </a>
+	  <a href="ql4b.html" style="font-size:9px">تمارين (م ب) </a>
+    </div></li>
+  <a href="todo.html"> مهام و تكاليف</a>
+  <a href="userrmanual.html">دليل المستخدم</a>
+  <a href="contact.html">تواصل مع المعلم</a>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
+
+<div class="bodydiv" style="padding:15px">
+<h1 style="color:#400080"> تمرينات تطبيق الآلة الحاسبة (مجموعة ب)</h1>
+<hr width="90%">
+
+<div class="scp-quizzes-main">
+   <div class="scp-quizzes-data" >
+      
+      <h3> 1 . لنشر التطبيق نختار الأمر (Run) والضغط على المفتاح (F5).</h3>
+      <input type="radio"  name="question1" >
+         <label id="wa1" onclick='wa()'> صح </label><br/>
+		 
+      <input type="radio"  name="question1" >
+         <label id="ra" onclick="document.getElementById('ra').className = 'right'; ra();"> خطأ </label><br/>
+	  
+   </div>
+ 
+    <div class="scp-quizzes-data" >
+      <h3>2 . يستخدم الزر (Button 1)  عملية الجمع. </h3>
+        <input type="radio"  name="question1"  >
+          <label id="ra2" onclick="document.getElementById('ra2').className = 'right'; ra2(); " > صح </label><br/>
+		  
+        <input type="radio"  name="question1" >
+          <label  id="wa2" onclick='wa2()'> خطأ </label><br/>
+		
+ </div>
+ 
+    <div class="scp-quizzes-data" >
+      <h3>3 . الأمر ( Deploy) يتيح حفظ التطبيق.</h3>
+        <input type="radio"  name="question1"  >
+          <label id="wa3" onclick='wa3()' > صح </label><br/>
+		  
+        <input type="radio"  name="question1" >
+          <label id="ra3" onclick="document.getElementById('ra3').className = 'right'; ra3();"> خطأ </label><br/>
+		
+ </div>
+ 
+   <div class="scp-quizzes-data" >
+      <h3>4 . عند تصميم نموذج التطبيق يتطلب تحديد مقاس الشاشة حسب جهاز الهاتف الذكي المستهدف. </h3>
+        <input type="radio"  name="question1"  >
+          <label  onclick="document.getElementById('ra4').className = 'right'; ra4(); " id="ra4" > صح </label><br/>
+		  
+        <input type="radio"  name="question1" >
+          <label  id="wa4" onclick='wa4()'> خطأ </label><br/>
+		
+ </div>
+ </div>
+ <div id="dialog1" title="&nbsp; &nbsp;اجابة صحيحة &nbsp;&nbsp; ">
+  <img src="images\correctans.gif" width="170px" height="170px" class="img-responsive" >
+</div>
+ <div id="dialog2" title="&nbsp;&nbsp; اجابة خاطئة &nbsp;&nbsp; " style="background-color:#fff">
+  <img src="images\wrongans.gif" width="170px" height="170px" class="img-responsive" >
+  <h4>حيث يتطلب لنشر التطبيق  اختيار الأمر (Run).اختار الأمر ( Deploy) أو بالضغط على المفتاح (F6)</h4>
+</div>
+<div id="dialog3" title="&nbsp;&nbsp; اجابة خاطئة &nbsp;&nbsp; " style="background-color:#fff">
+  <img src="images\wrongans.gif" width="170px" height="170px" class="img-responsive" >
+  <h4>حيث يستخدم الزر (Button 1)  عملية الجمع</h4>
+</div>
+<div id="dialog4" title="&nbsp;&nbsp; اجابة خاطئة &nbsp;&nbsp; " style="background-color:#fff">
+  <img src="images\wrongans.gif" width="170px" height="170px" class="img-responsive" >
+  <h4>حيث أن  الأمر  (Deploy) يتيح نشر التطبيق على الخادم.</h4>
+</div>
+<div id="dialog5" title="&nbsp;&nbsp; اجابة خاطئة &nbsp;&nbsp; " style="background-color:#fff">
+  <img src="images\wrongans.gif" width="170px" height="170px" class="img-responsive" >
+  <h4>عند تصميم نموذج التطبيق يتطلب تحديد مقاس الشاشة حسب جهاز الهاتف الذكي المستهدف.  وذلك لان مقاسات الشاشات تختلف</h4>
+</div>
+
+<script>
+function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+        x.className += " responsive";
+    } else {
+        x.className = "topnav";
+    }
+}
+</script>
+</div>
+<footer>
+ <center>
+<hr width="70%"  >
+<script>
+var today = new Date(); 
+document.write(today);
+</script>
+<h4 style="font-family:'Segoe UI Black'; "> All copy Right saved &copy; 2018</h4>
+</center>
+<br><br>
+</footer>
+</body>
+</html>
